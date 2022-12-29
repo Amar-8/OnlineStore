@@ -1,8 +1,8 @@
 import { Component, Input } from '@angular/core';
 
 @Component({
-    selector: 'app-product-card',
-    template: `
+  selector: 'app-product-card',
+  template: `
     <div class="card" *ngFor="let product of products">
       <img src="{{product.imageUrl}}" alt="{{product.name}}" class="card-img-top">
       <div class="card-body">
@@ -12,8 +12,8 @@ import { Component, Input } from '@angular/core';
       </div>
     </div>
   `,
-    styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css']
 })
 export class ProductCardComponent {
-    @Input() products;
+  @Input() products;
 }
