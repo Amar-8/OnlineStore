@@ -12,19 +12,7 @@ import { Component, Input } from '@angular/core';
       </div>
     </div>
   `,
-    styles: [`
-    .card {
-      width: 200px;
-      margin: 10px;
-      display: inline-block;
-      vertical-align: top;
-    }
-    .card-img-top {
-      width: 100%;
-      height: 100px;
-      object-fit: cover;
-    }
-  `]
+    styleUrls: ['./app.component.css']
 })
 export class ProductCardComponent {
     @Input() products;
