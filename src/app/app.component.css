@@ -12,6 +12,18 @@ nav a {
     display: inline-block;
 }
 
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header img {
+    width: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
 nav a:hover {
     background-color: #555;
 }
